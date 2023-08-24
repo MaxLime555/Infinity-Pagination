@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.post-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-list {
+  margin-top: 20px;
+}
+
+.post-item {
+  border: 2px solid darkcyan;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post-title{
+  text-align: center;
+  margin: 15px 0;
+  font-size: 24px;
+}
+
+.post-body{
+  font-size: 18px;
+}
+
+.post-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post-button:hover{
+  background-color: rgb(0, 95, 95);
+}
